@@ -1,0 +1,47 @@
+.color {
+  border: solid 1px black;
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+}
+
+#black {
+  background-color: black;
+}
+
+#color1 {
+  background-color: blue;
+}
+
+#color2 {
+  background-color: green;
+}
+
+#color3 {
+  background-color: red;
+}
+
+#pixel-board {
+  display: table;
+  background-color: black;
+  border: solid 1px black;
+  margin-top: 10px;
+}
+
+.row  {
+  display: table-row;
+}
+
+.pixel {
+  display: table-cell;
+  background-color: white;
+  border: solid 1px black;
+  width: 40px;
+  height: 40px;
+}
+
+#clear-board {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  display: flex;
+}
